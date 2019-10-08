@@ -1,0 +1,44 @@
+{
+  "pages": [
+   
+     "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/zhuce/zhuce",
+    "pages/my/my",
+    "pages/text/text",
+    "pages/users/users"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校园取件车",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedcolor": "#66666",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/users/users",
+        "iconPath": "images/users.png",
+        "selectedIconPath": "images/users.png",
+        "text": "查看"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/xiadan.png",
+        "selectedIconPath": "images/xiadan.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
