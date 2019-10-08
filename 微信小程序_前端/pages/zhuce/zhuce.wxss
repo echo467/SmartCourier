@@ -1,0 +1,4 @@
+/* pages/zhuce/zhuce.wxss */
+.aaa{
+  border: 8rpx inset black
+}

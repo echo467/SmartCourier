@@ -1,0 +1,10 @@
+<view>账号</view>
+<view class="section">
+<input bindinput="getacc"></input>
+</view>
+<view class="section">
+<view>密码</view>
+</view>
+<input password="true" bindinput="getpassword"></input>
+<button bindtap='denglu'>登录</button>
+<button bindtap='zhuce'>注册</button>

@@ -1,0 +1,16 @@
+<!--pages/zhuce/zhuce.wxml-->
+<view>输入你的账号</view>
+<input class="aaa" bindinput="getaccnum"></input>
+<view>输入你的密码</view>
+<input class="aaa" bindinput="getpassword"></input>
+<view>输入你的电话号码</view>
+<input class="aaa" bindinput="getphonenum"></input> 
+<view>选择你的身份(多选默认为学生)</view>
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+<button bindtap="successzc">注册</button>
+
+
